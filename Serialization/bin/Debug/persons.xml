@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<ArrayOfBook xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <book id="1">
+    <ibsn />
+    <author>author1</author>
+    <publisher />
+    <title />
+    <genre>Computer</genre>
+    <description />
+    <publish_date>2001-01-01T00:00:00</publish_date>
+    <register_date>2001-01-01T00:00:00</register_date>
+  </book>
+  <book id="2">
+    <ibsn />
+    <author>author2</author>
+    <publisher />
+    <title />
+    <genre>Computer</genre>
+    <description />
+    <publish_date>2001-01-01T00:00:00</publish_date>
+    <register_date>2001-01-01T00:00:00</register_date>
+  </book>
+  <book id="3">
+    <ibsn />
+    <author>author3</author>
+    <publisher />
+    <title />
+    <genre>Fantasy</genre>
+    <description />
+    <publish_date>2001-01-01T00:00:00</publish_date>
+    <register_date>2001-01-01T00:00:00</register_date>
+  </book>
+</ArrayOfBook>
