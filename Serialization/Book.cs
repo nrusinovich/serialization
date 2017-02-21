@@ -10,7 +10,7 @@ namespace Serialization
     {
         [XmlAttribute("id")]
         public string Id { get; set; }
-        [XmlElement("ibsn")]
+        [XmlElement("isbn")]
         public string Ibsn { get; set; }
         [XmlElement("author")]
         public string Author { get; set; }
@@ -24,7 +24,7 @@ namespace Serialization
         public string Description{ get; set; }
         [XmlElement("publish_date")]
         public DateTime PublishDate { get; set; }
-        [XmlElement("register_date")]
+        [XmlElement("registration_date")]
         public DateTime RegisterDate { get; set; }
         public Book()
         {
@@ -50,6 +50,7 @@ namespace Serialization
     {
         Fantasy,
         Computer,
-        Romance
+        Romance, 
+        Horror
     }
 }

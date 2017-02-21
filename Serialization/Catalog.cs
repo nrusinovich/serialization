@@ -4,17 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+using System.Xml.Serialization;
+
 namespace Serialization
 {
-     public class Catalog1 : List<Book>
+    [XmlRoot("catalog")]
+     public class Catalog
     {
-        public Catalog1()
-        {
+        List<Book> books { get; set; }
 
-        }
-        public Catalog1(List<Book> books)
-        {
-           AddRange(books);
-        }
     }
 }
